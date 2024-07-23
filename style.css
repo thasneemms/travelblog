@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-image: url(./WhatsApp\ Image\ 2024-07-22\ at\ 9.03.31\ AM.jpeg); 
+  height: 103vh;
+  width: 100%;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  position: sticky;
+  top: 0%;
+}
+
+
+
+
+.container-fluid{
+    margin-bottom: 42%;
+}
+
+h4{
+    text-align: center;
+    color: white !important;
+    font-family: "Exo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    position: absolute;
+    top: 64%;
+    margin: 350px;
+}
+
+.sec1{
+    padding-left: 30%;
+    margin-top: 30px;
+}
+
+h6{
+    text-align: center;
+    color: rgb(147, 144, 144) !important;
+}
+
+.overlay{
+    color: white !important;
+    position: absolute;
+    top: 1120px;
+    margin-left: 50px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.pak{
+    position: absolute;
+    color: white !important;
+    top: 1120px;
+    margin-left: 350px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.iran{
+    position: absolute;
+    color: white !important;
+    top: 1120px;
+    margin-left: 645px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.saudi{
+    position: absolute;
+    color: white !important;
+    top: 1120px;
+    margin-left: 930px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.dest{
+    opacity: 0.8;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+.dest:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly; 
+    gap: 20px; 
+}
+
+.card-1 {
+    position: relative;
+    width: 440px; 
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px; 
+    background: rgba(0, 0, 0, 0.5); 
+    box-sizing: border-box;
+}
+
+.overlay-text h5 {
+    font-size: 30px;
+}
+
+.overlay-text h5,.overlay-text .single-line,.overlay-text .single-linee,.overlay-text .single-lineee {
+    margin: 0;
+    padding: 5px 0; 
+    color: white; 
+}
+
+.single-line,.single-linee,.single-lineee {
+    display: flex;
+    align-items: center;
+}
+
+.single-line p,.single-linee p,.single-lineee p {
+    margin: 0;
+    padding-left: 5px;
+}
+
+
+.sec4, .sec5{
+    background-color: #f8f8f8;
+}
+
+.sec5 h6{
+    padding-top: 40px;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
+}
+  
+.card {
+    margin-right: 10px; 
+}
+
+.card-title{
+    font-size: 27px;
+}
+
+.card-title:hover{
+    cursor: pointer;
+    color: dimgray;
+}
+  
+.no-border {
+    border: none;
+}
+
+
+.footer-text{
+    text-align: center;
+    font-size: smaller;
+    font-weight: normal;
+    color: rgb(81, 80, 80) !important;
+}
+
+.footer-img{
+    margin-left: 550px;
+   opacity: 0.6;
+}
+
+.copyright{
+    text-align: center;
+}
